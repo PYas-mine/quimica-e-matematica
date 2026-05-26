@@ -1,0 +1,105 @@
+<DOCTYPE!>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Site de Pelúcias</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1;
+    margin: 0;
+    padding: 20px;
+  }
+
+  header {
+    text-align: center;
+    color: #b34050;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .pelucia-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .pelucia {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .pelucia:hover {
+    transform: scale(1.05);
+  }
+
+  .imagem-pelucia {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+
+  .ursa {
+    background-image: url('https://brasilcacau.vtexassets.com/arquivos/ids/158995/Pelucia-Urso-Balao-Coracao.png?v=638271239270500000');
+  }
+
+  .coala {
+    background-image: url('https://images.tcdn.com.br/img/img_prod/460977/pelucia_coala_koala_50_cm_102307_1_fde4c502f1cc08f3e75a94e6c869d05b.jpeg');
+  }
+
+  .urso {
+    background-image: url('https://brincamundo.com.br/wp-content/uploads/2023/04/pelucias-urso-sem-curso-polar.jpg');
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tudo Sobre Pelúcias</h1>
+  <p>As melhores pelúcias fofinhas e encantadoras!</p>
+</header>
+
+<div class="pelucia-container">
+  <div class="pelucia">
+    <div class="imagem-pelucia ursa"></div>
+    <h3>Urso de Pelúcia</h3>
+    <p>Um clássico fofinho para abraçar e decorar seu quarto.</p>
+  </div>
+  
+  <div class="pelucia">
+    <div class="imagem-pelucia coala"></div>
+    <h3>Coala de Pelúcia</h3>
+    <p>Perfeito para quem gosta de animais adoráveis.</p>
+  </div>
+  
+  <div class="pelucia">
+    <div class="imagem-pelucia urso"></div>
+    <h3>Urso Polar</h3>
+    <p>Um amigo gelado, mas super fofo!</p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Mundo das Pelúcias. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
